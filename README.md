@@ -7,7 +7,7 @@ Rise allows customers to create responsive single page, vertically scrolling les
 Your goal is to implement one of Rise's interactive blocks (see [this Rise lesson](https://rise.articulate.com/share/YaZWnWdc2El8-M-4gcZ9eQD0lB9iRXDn#/lessons/lZ0qX7FvbGICXnk-30conqfR_JAFagbh) for an example).
 
 At a minimum, your implementation should:
-- [ ] Decorate the knowledge block returned from [`getKnowledgeCheckBlocks`](/server/src/index.ts) with `questions`, `answers`, and `media` from the Postgress Database.
+- [ ] Decorate the knowledge block returned from [`getKnowledgeCheckBlocks`](/server/src/index.ts) with `questions`, `answers`, and `media` from the Postgres Database.
 - [ ] Populate your interactive block's configuration from the provided REST API (see [`/server`](/server/src/))
 - [ ] Use `react` and TypeScript to create a UI that replicates [the knowledge check block from this sample lesson](https://rise.articulate.com/share/YaZWnWdc2El8-M-4gcZ9eQD0lB9iRXDn#/lessons/lZ0qX7FvbGICXnk-30conqfR_JAFagbh)
   - You must use React for your UI components
@@ -24,6 +24,7 @@ What you choose to implement from there is up to you. :)
 - Your interactive block implementation should live in the [`/client`](/client) directory, an app skeleton has been provided in the directory
 - The beginnings of a REST API lives in [`/server`](/server/src/) and is reachable at http://localhost:5001
   - The REST API currently only returns the parent `knowledgeCheckBlock` with no questions, answers, or media tied to it.
+- When we evaluate your submission, we will use the existing steps outlined in this [README](#getting-started) to run it.
 
 ### Getting started
 
