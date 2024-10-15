@@ -11,6 +11,7 @@ export async function up(knex: Knex): Promise<void> {
       table.uuid('id').primary()
       table.string('text')
       table.uuid('mediaId')
+      table.string('answersId')
     }),
     knex.schema.createTable('answers', table => {
       table.uuid('id').primary()
@@ -46,6 +47,7 @@ export async function down(knex: Knex): Promise<void> {
     }),
     knex.schema.table('questions', table => {
       table.dropForeign('mediaId')
+      table.dropForeign('answersId')
     }),
     knex.schema.table('answers', table => {
       table.dropForeign('knowledgeCheckBlockId')

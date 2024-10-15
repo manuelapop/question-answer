@@ -39,26 +39,31 @@ exports.seed = async knex => {
       id: 'a8ebfafd-d81a-42ec-b54c-c14d007cd54e',
       text: 'What is this a picture of?',
       mediaId: '9b18dff4-8891-4874-a43d-ccc00477a19b',
+      answersId: '',
     },
     {
       id: '5c96f2bd-090a-4d8a-80b8-4d90c4299101',
       text: 'Who is this a picture of?',
       mediaId: 'c86232bb-2bca-4c72-a046-e7f6dc78b4a6',
+      answersId: '',
     },
     {
       id: '66a06031-128d-494e-933c-3ddf0ccc395e',
       text: 'Why is this a picture?',
       mediaId: 'eb3af7b2-b216-47a1-8216-7817420f5773',
+      answersId: '',
     },
     {
       id: '70026c75-39ba-414e-9a8d-389258dece28',
       text: 'Where is this picture from?',
       mediaId: 'a49284ac-dbf8-4081-8efb-4527d3f90d17',
+      answersId: '',
     },
     {
       id: 'c2fc1261-a638-433e-8995-4897052ca15f',
       text: 'When is this picture from?',
       mediaId: '5fc1fbe0-4e6f-47db-855c-6d15f808e657',
+      answersId: '',
     },
   ])
 
